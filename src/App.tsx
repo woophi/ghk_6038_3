@@ -3,6 +3,7 @@ import { Collapse } from '@alfalab/core-components/collapse';
 import { Gap } from '@alfalab/core-components/gap';
 import { PureCell } from '@alfalab/core-components/pure-cell';
 import { Typography } from '@alfalab/core-components/typography';
+import { BellMIcon } from '@alfalab/icons-glyph/BellMIcon';
 import { BulbMIcon } from '@alfalab/icons-glyph/BulbMIcon';
 import { ChevronDownMIcon } from '@alfalab/icons-glyph/ChevronDownMIcon';
 import { ChevronUpMIcon } from '@alfalab/icons-glyph/ChevronUpMIcon';
@@ -25,6 +26,11 @@ const items = [
     title: 'Приоритетная поддержка',
     text: 'Любой вопрос в чате Альфа-Инвестиций решится быстрее',
     IconComp: CrownMIcon,
+  },
+  {
+    title: 'Минимум уведомлений',
+    text: 'Возможность отключить маркетинговые пуши в Альфа Инвестициях',
+    IconComp: BellMIcon,
   },
   {
     title: 'Уведомления по портфелю',
